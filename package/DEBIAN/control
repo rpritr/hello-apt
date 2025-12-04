@@ -1,0 +1,7 @@
+Package: hello-app
+Version: 1.0
+Section: utils
+Priority: optimal
+Architecture: amd64
+Maintainer: Robi Pritrznik <robi@pritrznik.si>
+Description: Example APT hello package
