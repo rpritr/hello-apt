@@ -1,0 +1,27 @@
+# Hello APT — Simple C++ App Packaged as a Debian `.deb` Package
+
+**Hello APT** is a minimal example project that demonstrates:
+
+- a simple C++ program  
+- a Makefile build system  
+- how to package the compiled binary into a Debian/Ubuntu `.deb` package  
+- how to install the package via `apt` or `dpkg`  
+
+This repository is intended as a learning example and a template for building your own APT-installable applications.
+
+---
+
+## 🚀 Features
+
+- Small C++ application (`hello-app`)
+- Makefile build:
+  - `make` → compile  
+  - `make install` → install to `/usr/local/bin`  
+  - `make uninstall` → remove binary  
+  - `make deb` → build `.deb` package
+  - `dpkg-deb --build package hello.deb`
+  - `sudo apt install ./hello.deb`
+- Debian package structure (`DEBIAN/control`)
+
+
+---
